@@ -3,142 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judaica DH Project Directory</title>
+    <title>Project Links</title>
     <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-color: #f8fafc;
-            --link-color: #38bdf8;
-            --link-hover: #7dd3fc;
-            --border-color: #334155;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            box-sizing: border-box;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1000px;
-            background-color: var(--card-bg);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
-            border: 1px solid var(--border-color);
-        }
-
-        h1 {
-            font-size: 1.8rem;
-            margin-top: 0;
-            margin-bottom: 25px;
-            text-align: center;
-            letter-spacing: -0.025em;
-            color: #fff;
-        }
-
-        .table-responsive {
-            overflow-x: auto;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-        }
-
-        th, td {
-            padding: 16px;
-            border-bottom: 1px solid var(--border-color);
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1.05rem;
-        }
-
-        th {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            color: #94a3b8;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 0.05em;
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
         }
-
+        h1 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 12px;
+            padding: 10px;
+            background-color: #1e293b;
+            border-radius: 6px;
+            border: 1px solid #334155;
+        }
         a {
-            color: var(--link-color);
+            color: #38bdf8;
             text-decoration: none;
-            transition: color 0.2s ease, border-bottom 0.2s ease;
-            border-bottom: 1px solid transparent;
+            font-family: monospace;
+            font-size: 1.05rem;
+            word-break: break-all;
+            display: block;
         }
-
         a:hover {
-            color: var(--link-hover);
-            border-bottom: 1px solid var(--link-hover);
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            .container {
-                padding: 15px;
-            }
-            th {
-                display: none; /* Hide headers on mobile for stack view */
-            }
-            td {
-                display: block;
-                padding: 12px 6px;
-            }
-            td:nth-child(even) {
-                margin-bottom: 15px;
-                border-bottom: 2px solid var(--border-color);
-            }
+            color: #7dd3fc;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Project Directory</h1>
-    
-    <div class="table-responsive">
-        <table>
-            <thead>
-                <tr>
-                    <th>Domain / Subdomain</th>
-                    <th>GitHub Pages Target</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="https://music.judaicadhpenn.org" target="_blank" rel="noopener">music.judaicadhpenn.org</a></td>
-                    <td><a href="https://judaicadh.github.io/tourowill/" target="_blank" rel="noopener">judaicadh.github.io/tourowill/</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://leeser.judaicadhpenn.org" target="_blank" rel="noopener">leeser.judaicadhpenn.org</a></td>
-                    <td><a href="https://judaicadh.github.io/atlanticjewry/" target="_blank" rel="noopener">judaicadh.github.io/atlanticjewry/</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://singerman.judaicadhpenn.org" target="_blank" rel="noopener">singerman.judaicadhpenn.org</a></td>
-                    <td><a href="https://judaicadh.github.io/jewishindia/" target="_blank" rel="noopener">judaicadh.github.io/jewishindia/</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://kaplancollection.org" target="_blank" rel="noopener">kaplancollection.org</a></td>
-                    <td><a href="https://judaicadh.github.io/bibliothecahebraicaatlantica" target="_blank" rel="noopener">judaicadh.github.io/bibliothecahebraicaatlantica</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
+    <h1>Projects Directory</h1>
+    <ul>
+        <li><a href="https://judaicadh.github.io/tourowill/" target="_blank" rel="noopener">A Ledger of Bequests: Judah Touro's Will Beneficiaries/</a></li>
+        <li><a href="https://kaplancollection.org" target="_blank" rel="noopener">Arnold and Deanne Kaplan of Early American Judaica, 1550–1890</a></li>
+        <li><a href="https://judaicadh.github.io/atlanticjewry/" target="_blank" rel="noopener">Atlantic Jewry Dashboard</a></li>
+        <li><a href="https://judaicadh.github.io/bibliothecahebraicaatlantica" target="_blank" rel="noopener">Bibliotheca Hebraica Atlantica</a></li>
+        <li><a href="https://judaicadh.github.io/jewishindia/" target="_blank" rel="noopener">Indian Jewish Digital Heritage Trail</a></li>
+        <li><a href="https://leeser.judaicadhpenn.org" target="_blank" rel="noopener">Isaac Leeser Digital Repository</a></li>
+        <li><a href="https://music.judaicadhpenn.org" target="_blank" rel="noopener">Shira: Jewish Sound Collections at Penn Libraries</a></li>
+        <li><a href="https://singerman.judaicadhpenn.org" target="_blank" rel="noopener">Robert Singerman's Judaica Americana II</a></li>
+
+    </ul>
 
 </body>
 </html>
